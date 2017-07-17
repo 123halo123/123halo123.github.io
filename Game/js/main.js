@@ -81,7 +81,7 @@ Spider.prototype.die = function () {
     }, this);
 };
 PlayState = {};
-const LEVEL_COUNT = 2;
+const LEVEL_COUNT = 4;
 PlayState.init = function (data) {
     this.game.renderer.renderSession.roundPixels = true;
     this.keys = this.game.input.keyboard.addKeys({
@@ -104,6 +104,8 @@ PlayState.init = function (data) {
 PlayState.preload = function () {
     this.game.load.json('level:0', 'data/level00.json');
     this.game.load.json('level:1', 'data/level01.json');
+    this.game.load.json('level:2', 'data/level02.json');
+    this.game.load.json('level:3', 'data/level03.json');
     this.game.load.image('font:numbers', 'images/numbers.png');
     this.game.load.image('background', 'images/big_1470762364_00003.jpg');
     this.game.load.image('ground', 'images/ground.png');
@@ -116,7 +118,7 @@ PlayState.preload = function () {
     this.game.load.image('icon:coin', 'images/coin_icon.png');
     this.game.load.image('key', 'images/key.png');
     this.game.load.spritesheet('coin', 'images/coin_animated.png', 22, 22);
-    this.game.load.spritesheet('spider', 'images/spider.png', 42, 32);
+    this.game.load.spritesheet('spider', 'images/bad3.png', 42, 32);
     this.game.load.spritesheet('hero', 'images/master2.png', 36, 42);
     this.game.load.spritesheet('door', 'images/door.png', 42, 66);
     this.game.load.spritesheet('icon:key', 'images/key_icon.png', 34, 30);
