@@ -60,6 +60,7 @@ h6 {
 .btn-primary {
   color: white;
   background-color: #ff211e;
+;
   border-color: #ff211e;
   font-family: 'Courgette', cursive;
   text-transform: uppercase;
@@ -546,11 +547,17 @@ section h3.section-subheading {
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
+  margin-left:400px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 .team-member h4 {
-  margin-top: 25px;
-  margin-bottom: 0;
-  text-transform: none;
+  text-align: center;
+  margin-top: 23px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  text-transform: none left: 2px;
+  top: 2px
 }
 .team-member p {
   margin-top: 0;
