@@ -34,7 +34,7 @@ body {
 }
 
 .row2 {
-    height: 20%;
+    height: 30%;
     border: solid black 1px;
     border-radius: 9%;
     width: 20%;
@@ -81,4 +81,10 @@ body {
 .space {
   margin-left: 19.5%;
 }
+#panel1 {
+  margin-left: 2.6em;
+}
 
+.poop{
+  padding: 10px;
+}
